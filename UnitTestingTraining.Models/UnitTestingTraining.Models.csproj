@@ -47,6 +47,7 @@
     <Compile Include="PersonaDetails\StudentDetails.cs" />
     <Compile Include="StudentSubject.cs" />
     <Compile Include="StudentSubjectMapping.cs" />
+    <Compile Include="TechnicalDetails\DataSources.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -40,10 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneralOperationsInAzureTableContainer.cs" />
+    <Compile Include="Factories\GeneralOperationsInDataSourceFactory.cs" />
+    <Compile Include="Factories\StudentOperationsInDataSourceFactory.cs" />
+    <Compile Include="Implementations\AzureTableStorage\GeneralOperationsInAzureTableContainer.cs" />
     <Compile Include="Interfaces\IGeneralOperationsInDataSource.cs" />
     <Compile Include="Interfaces\IStudentOperationsInDataSource.cs" />
-    <Compile Include="StudentOperationsInAzureTableContainer.cs" />
+    <Compile Include="Implementations\AzureTableStorage\StudentOperationsInAzureTableContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +53,9 @@
       <Project>{de35db10-5b3b-46a2-86e0-61fa25156ebc}</Project>
       <Name>UnitTestingTraining.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Implementations\AzureSqlDatabase\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
