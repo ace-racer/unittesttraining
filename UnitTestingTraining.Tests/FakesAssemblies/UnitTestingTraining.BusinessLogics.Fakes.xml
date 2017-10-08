@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnitTestingTraining.BusinessLogics.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer">
+            <summary>Shim type of UnitTestingTraining.BusinessLogics.StudentOperationsContainer</summary>
+        </member>
+        <member name="M:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.#ctor(UnitTestingTraining.BusinessLogics.StudentOperationsContainer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.AllInstances.GetCurrentPercentScoreOfStudentString">
+            <summary>Sets the shim of StudentOperationsContainer.GetCurrentPercentScoreOfStudent(String studentId)</summary>
+        </member>
+        <member name="M:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.ConstructorIGeneralOperationsInDataSourceIStudentOperationsInDataSource">
+            <summary>Sets the shim of StudentOperationsContainer.StudentOperationsContainer(IGeneralOperationsInDataSource generalOperationsContainer, IStudentOperationsInDataSource studentOperationsContainer)</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.GetCurrentPercentScoreOfStudentString">
+            <summary>Sets the shim of StudentOperationsContainer.GetCurrentPercentScoreOfStudent(String studentId)</summary>
+        </member>
+        <member name="T:UnitTestingTraining.BusinessLogics.Fakes.StubStudentOperationsContainer">
+            <summary>Stub type of UnitTestingTraining.BusinessLogics.StudentOperationsContainer</summary>
+        </member>
+        <member name="M:UnitTestingTraining.BusinessLogics.Fakes.StubStudentOperationsContainer.#ctor(DataStoreOperations.Interfaces.IGeneralOperationsInDataSource,DataStoreOperations.Interfaces.IStudentOperationsInDataSource)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.StubStudentOperationsContainer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:UnitTestingTraining.BusinessLogics.Fakes.StubStudentOperationsContainer.InitializeStub">
+            <summary>Initializes a new instance of type StubStudentOperationsContainer</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.StubStudentOperationsContainer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.StubStudentOperationsContainer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

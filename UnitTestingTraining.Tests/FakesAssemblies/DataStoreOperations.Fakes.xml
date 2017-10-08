@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataStoreOperations.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DataStoreOperations.Factories.Fakes.ShimGeneralOperationsInDataSourceFactory">
+            <summary>Shim type of DataStoreOperations.Factories.GeneralOperationsInDataSourceFactory</summary>
+        </member>
+        <member name="M:DataStoreOperations.Factories.Fakes.ShimGeneralOperationsInDataSourceFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataStoreOperations.Factories.Fakes.ShimGeneralOperationsInDataSourceFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataStoreOperations.Factories.Fakes.ShimGeneralOperationsInDataSourceFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataStoreOperations.Factories.Fakes.ShimGeneralOperationsInDataSourceFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataStoreOperations.Factories.Fakes.ShimGeneralOperationsInDataSourceFactory.GetInstanceDataSources">
+            <summary>Sets the shim of GeneralOperationsInDataSourceFactory.GetInstance(DataSources dataSource)</summary>
+        </member>
+        <member name="T:DataStoreOperations.Factories.Fakes.ShimStudentOperationsInDataSourceFactory">
+            <summary>Shim type of DataStoreOperations.Factories.StudentOperationsInDataSourceFactory</summary>
+        </member>
+        <member name="M:DataStoreOperations.Factories.Fakes.ShimStudentOperationsInDataSourceFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataStoreOperations.Factories.Fakes.ShimStudentOperationsInDataSourceFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataStoreOperations.Factories.Fakes.ShimStudentOperationsInDataSourceFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataStoreOperations.Factories.Fakes.ShimStudentOperationsInDataSourceFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataStoreOperations.Factories.Fakes.ShimStudentOperationsInDataSourceFactory.GetInstanceDataSources">
+            <summary>Sets the shim of StudentOperationsInDataSourceFactory.GetInstance(DataSources dataSource)</summary>
+        </member>
+        <member name="T:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer">
+            <summary>Shim type of DataStoreOperations.GeneralOperationsInAzureTableContainer</summary>
+        </member>
+        <member name="M:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.#ctor(DataStoreOperations.GeneralOperationsInAzureTableContainer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.AllInstances.GetStudentClassDetailsFromStandardAndSectionInt32Char">
+            <summary>Sets the shim of GeneralOperationsInAzureTableContainer.GetStudentClassDetailsFromStandardAndSection(Int32 standard, Char section)</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.AllInstances.GetSubjectDetailsBySubjectIdString">
+            <summary>Sets the shim of GeneralOperationsInAzureTableContainer.GetSubjectDetailsBySubjectId(String subjectId)</summary>
+        </member>
+        <member name="M:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.Bind(DataStoreOperations.Interfaces.IGeneralOperationsInDataSource)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.Constructor">
+            <summary>Sets the shim of GeneralOperationsInAzureTableContainer.GeneralOperationsInAzureTableContainer()</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.GetStudentClassDetailsFromStandardAndSectionInt32Char">
+            <summary>Sets the shim of GeneralOperationsInAzureTableContainer.GetStudentClassDetailsFromStandardAndSection(Int32 standard, Char section)</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.ShimGeneralOperationsInAzureTableContainer.GetSubjectDetailsBySubjectIdString">
+            <summary>Sets the shim of GeneralOperationsInAzureTableContainer.GetSubjectDetailsBySubjectId(String subjectId)</summary>
+        </member>
+        <member name="T:DataStoreOperations.Fakes.StubGeneralOperationsInAzureTableContainer">
+            <summary>Stub type of DataStoreOperations.GeneralOperationsInAzureTableContainer</summary>
+        </member>
+        <member name="M:DataStoreOperations.Fakes.StubGeneralOperationsInAzureTableContainer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.StubGeneralOperationsInAzureTableContainer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataStoreOperations.Fakes.StubGeneralOperationsInAzureTableContainer.InitializeStub">
+            <summary>Initializes a new instance of type StubGeneralOperationsInAzureTableContainer</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.StubGeneralOperationsInAzureTableContainer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataStoreOperations.Fakes.StubGeneralOperationsInAzureTableContainer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DataStoreOperations.Interfaces.Fakes.StubIGeneralOperationsInDataSource">
+            <summary>Stub type of DataStoreOperations.Interfaces.IGeneralOperationsInDataSource</summary>
+        </member>
+        <member name="M:DataStoreOperations.Interfaces.Fakes.StubIGeneralOperationsInDataSource.#ctor">
+            <summary>Initializes a new instance of type StubIGeneralOperationsInDataSource</summary>
+        </member>
+        <member name="M:DataStoreOperations.Interfaces.Fakes.StubIGeneralOperationsInDataSource.DataStoreOperations#Interfaces#IGeneralOperationsInDataSource#GetStudentClassDetailsFromStandardAndSection(System.Int32,System.Char)">
+            <summary>Sets the stub of IGeneralOperationsInDataSource.GetStudentClassDetailsFromStandardAndSection(Int32 standard, Char section)</summary>
+        </member>
+        <member name="M:DataStoreOperations.Interfaces.Fakes.StubIGeneralOperationsInDataSource.DataStoreOperations#Interfaces#IGeneralOperationsInDataSource#GetSubjectDetailsBySubjectId(System.String)">
+            <summary>Sets the stub of IGeneralOperationsInDataSource.GetSubjectDetailsBySubjectId(String subjectId)</summary>
+        </member>
+        <member name="F:DataStoreOperations.Interfaces.Fakes.StubIGeneralOperationsInDataSource.GetStudentClassDetailsFromStandardAndSectionInt32Char">
+            <summary>Sets the stub of IGeneralOperationsInDataSource.GetStudentClassDetailsFromStandardAndSection(Int32 standard, Char section)</summary>
+        </member>
+        <member name="F:DataStoreOperations.Interfaces.Fakes.StubIGeneralOperationsInDataSource.GetSubjectDetailsBySubjectIdString">
+            <summary>Sets the stub of IGeneralOperationsInDataSource.GetSubjectDetailsBySubjectId(String subjectId)</summary>
+        </member>
+        <member name="T:DataStoreOperations.Interfaces.Fakes.StubIStudentOperationsInDataSource">
+            <summary>Stub type of DataStoreOperations.Interfaces.IStudentOperationsInDataSource</summary>
+        </member>
+        <member name="M:DataStoreOperations.Interfaces.Fakes.StubIStudentOperationsInDataSource.#ctor">
+            <summary>Initializes a new instance of type StubIStudentOperationsInDataSource</summary>
+        </member>
+        <member name="M:DataStoreOperations.Interfaces.Fakes.StubIStudentOperationsInDataSource.DataStoreOperations#Interfaces#IStudentOperationsInDataSource#GetStudentDetailsByClassDetailsId(System.String)">
+            <summary>Sets the stub of IStudentOperationsInDataSource.GetStudentDetailsByClassDetailsId(String classDetailsId)</summary>
+        </member>
+        <member name="M:DataStoreOperations.Interfaces.Fakes.StubIStudentOperationsInDataSource.DataStoreOperations#Interfaces#IStudentOperationsInDataSource#GetStudentSubjectMappingDetailsForStudentByStudentId(System.String)">
+            <summary>Sets the stub of IStudentOperationsInDataSource.GetStudentSubjectMappingDetailsForStudentByStudentId(String studentId)</summary>
+        </member>
+        <member name="F:DataStoreOperations.Interfaces.Fakes.StubIStudentOperationsInDataSource.GetStudentDetailsByClassDetailsIdString">
+            <summary>Sets the stub of IStudentOperationsInDataSource.GetStudentDetailsByClassDetailsId(String classDetailsId)</summary>
+        </member>
+        <member name="F:DataStoreOperations.Interfaces.Fakes.StubIStudentOperationsInDataSource.GetStudentSubjectMappingDetailsForStudentByStudentIdString">
+            <summary>Sets the stub of IStudentOperationsInDataSource.GetStudentSubjectMappingDetailsForStudentByStudentId(String studentId)</summary>
+        </member>
+        <member name="T:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer">
+            <summary>Shim type of UnitTestingTraining.DataStoreOperations.StudentOperationsInAzureTableContainer</summary>
+        </member>
+        <member name="M:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.#ctor(UnitTestingTraining.DataStoreOperations.StudentOperationsInAzureTableContainer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.AllInstances.GetStudentDetailsByClassDetailsIdString">
+            <summary>Sets the shim of StudentOperationsInAzureTableContainer.GetStudentDetailsByClassDetailsId(String classDetailsId)</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.AllInstances.GetStudentSubjectMappingDetailsForStudentByStudentIdString">
+            <summary>Sets the shim of StudentOperationsInAzureTableContainer.GetStudentSubjectMappingDetailsForStudentByStudentId(String studentId)</summary>
+        </member>
+        <member name="M:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.Bind(DataStoreOperations.Interfaces.IStudentOperationsInDataSource)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.Constructor">
+            <summary>Sets the shim of StudentOperationsInAzureTableContainer.StudentOperationsInAzureTableContainer()</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.GetStudentDetailsByClassDetailsIdString">
+            <summary>Sets the shim of StudentOperationsInAzureTableContainer.GetStudentDetailsByClassDetailsId(String classDetailsId)</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.ShimStudentOperationsInAzureTableContainer.GetStudentSubjectMappingDetailsForStudentByStudentIdString">
+            <summary>Sets the shim of StudentOperationsInAzureTableContainer.GetStudentSubjectMappingDetailsForStudentByStudentId(String studentId)</summary>
+        </member>
+        <member name="T:UnitTestingTraining.DataStoreOperations.Fakes.StubStudentOperationsInAzureTableContainer">
+            <summary>Stub type of UnitTestingTraining.DataStoreOperations.StudentOperationsInAzureTableContainer</summary>
+        </member>
+        <member name="M:UnitTestingTraining.DataStoreOperations.Fakes.StubStudentOperationsInAzureTableContainer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.StubStudentOperationsInAzureTableContainer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:UnitTestingTraining.DataStoreOperations.Fakes.StubStudentOperationsInAzureTableContainer.InitializeStub">
+            <summary>Initializes a new instance of type StubStudentOperationsInAzureTableContainer</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.StubStudentOperationsInAzureTableContainer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:UnitTestingTraining.DataStoreOperations.Fakes.StubStudentOperationsInAzureTableContainer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
