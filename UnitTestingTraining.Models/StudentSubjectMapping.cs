@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace UnitTestingTraining.Models
+﻿namespace UnitTestingTraining.Models
 {
     public class StudentSubjectMapping
     {
@@ -15,5 +9,7 @@ namespace UnitTestingTraining.Models
         public bool IsActive { get; set; }
 
         public double CurrentMarksOfStudent { get; set; }
+
+        public bool IsFinalExamConductedForSubject { get; set; }
     }
 }

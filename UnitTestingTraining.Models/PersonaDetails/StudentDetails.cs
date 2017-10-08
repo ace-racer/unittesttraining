@@ -16,8 +16,8 @@ namespace UnitTestingTraining.Models
 
         public DateTime AdmissionDate { get; set; }
 
-        public List<StudentClassDetails> ClassesAssociatedWith { get; set; }
+        public List<string> ClassesAssociatedWith { get; set; }
 
-        public StudentClassDetails CurrentClass { get; set; }
+        public string ClassDetailsId { get; set; }
     }
 }
