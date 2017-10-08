@@ -16,8 +16,14 @@
         <member name="T:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.AllInstances.GetAllStudentsByStandardAndSectionInt32Char">
+            <summary>Sets the shim of StudentOperationsContainer.GetAllStudentsByStandardAndSection(Int32 standard, Char section)</summary>
+        </member>
         <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.AllInstances.GetCurrentPercentScoreOfStudentString">
             <summary>Sets the shim of StudentOperationsContainer.GetCurrentPercentScoreOfStudent(String studentId)</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.AllInstances.GetStudentDetailsOfStudentsReceivingMaximumOverallMarksPercentInClassInt32Char">
+            <summary>Sets the shim of StudentOperationsContainer.GetStudentDetailsOfStudentsReceivingMaximumOverallMarksPercentInClass(Int32 standard, Char section)</summary>
         </member>
         <member name="M:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
@@ -31,8 +37,14 @@
         <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.ConstructorIGeneralOperationsInDataSourceIStudentOperationsInDataSource">
             <summary>Sets the shim of StudentOperationsContainer.StudentOperationsContainer(IGeneralOperationsInDataSource generalOperationsContainer, IStudentOperationsInDataSource studentOperationsContainer)</summary>
         </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.GetAllStudentsByStandardAndSectionInt32Char">
+            <summary>Sets the shim of StudentOperationsContainer.GetAllStudentsByStandardAndSection(Int32 standard, Char section)</summary>
+        </member>
         <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.GetCurrentPercentScoreOfStudentString">
             <summary>Sets the shim of StudentOperationsContainer.GetCurrentPercentScoreOfStudent(String studentId)</summary>
+        </member>
+        <member name="P:UnitTestingTraining.BusinessLogics.Fakes.ShimStudentOperationsContainer.GetStudentDetailsOfStudentsReceivingMaximumOverallMarksPercentInClassInt32Char">
+            <summary>Sets the shim of StudentOperationsContainer.GetStudentDetailsOfStudentsReceivingMaximumOverallMarksPercentInClass(Int32 standard, Char section)</summary>
         </member>
         <member name="T:UnitTestingTraining.BusinessLogics.Fakes.StubStudentOperationsContainer">
             <summary>Stub type of UnitTestingTraining.BusinessLogics.StudentOperationsContainer</summary>

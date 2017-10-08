@@ -1,20 +1,19 @@
 ﻿using DataStoreOperations.Interfaces;
+using System;
 using UnitTestingTraining.Models;
 
 namespace DataStoreOperations
 {
+    /// <summary>
+    /// Refer here for details: https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-how-to-use-dotnet
+    /// </summary>
+    /// <seealso cref="DataStoreOperations.Interfaces.IStudentOperationsInDataSource" />
     public class GeneralOperationsInAzureTableContainer : IGeneralOperationsInDataSource
     {
         public StudentClassDetails GetStudentClassDetailsFromStandardAndSection(int standard, char section)
         {
-            return new StudentClassDetails()
-            {
-                Section = 'B',
-                Standard = 5,
-                ClassTeacherId = "1",
-                IsActive = true,
-                Id = "5B"
-            };
+            // TODO: Get the details from Azure table storage
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -24,27 +23,8 @@ namespace DataStoreOperations
         /// <returns>The student subject details</returns>
         public StudentSubject GetSubjectDetailsBySubjectId(string subjectId)
         {
-            switch(subjectId)
-            {
-                case "1":
-                    return new StudentSubject()
-                    {
-                        Name = "Maths",
-                        Id = "1",
-                        Standard = 5,
-                        TotalMarks = 100
-                    };
-                case "2":
-                    return new StudentSubject()
-                    {
-                        Name = "Physical Science",
-                        Id = "2",
-                        Standard = 5,
-                        TotalMarks = 50
-                    };
-                default:
-                    return null;
-            }            
+            // TODO: Get the details from Azure table storage
+            throw new NotImplementedException();
         }
     }
 }

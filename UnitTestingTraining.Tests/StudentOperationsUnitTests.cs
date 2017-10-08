@@ -151,5 +151,39 @@ namespace UnitTestingTraining.Tests
             double expectedPercentMarks = ((double)110 / 150) * 100;
             Assert.AreEqual(expectedPercentMarks, actualPercentMarks);
         }
+
+        [TestMethod]
+        // TODO: Make this test pass!!
+        public void GetAllStudentsByStandardAndSection_ReturnsAllStudentsinTheStandardAndSection()
+        {
+            var studentOperationsContainer = new StudentOperationsContainer();
+            Assert.IsNotNull(studentOperationsContainer.GetAllStudentsByStandardAndSection(5, 'a'));
+        }
+
+        [TestMethod]
+        // TODO: Make this test pass!!
+        public void GetAllStudentsByStandardAndSection_ReturnsNoStudentsForInvalidStandardOrSection()
+        {
+            var studentOperationsContainer = new StudentOperationsContainer();
+            Assert.IsNull(studentOperationsContainer.GetAllStudentsByStandardAndSection(21, 'a'));
+        }
+
+        [TestMethod]
+        // TODO: Make this test pass!!
+        public void GetStudentDetailsOfStudentReceivingMaximumOverallMarksPercentInClass_ReturnsOneStudentWhenThereIsOneMaximum()
+        {
+            var studentOperationsContainer = new StudentOperationsContainer();
+            var studentsReceivingMaximumPercentInClass = studentOperationsContainer.GetStudentDetailsOfStudentsReceivingMaximumOverallMarksPercentInClass(5, 'a');
+            Assert.AreEqual(1, studentsReceivingMaximumPercentInClass.Count);
+        }
+
+        [TestMethod]
+        // TODO: Make this test pass!!
+        public void GetStudentDetailsOfStudentReceivingMaximumOverallMarksPercentInClass_Returns3StudentsWhenThereAre3Maximums()
+        {
+            var studentOperationsContainer = new StudentOperationsContainer();
+            var studentsReceivingMaximumPercentInClass = studentOperationsContainer.GetStudentDetailsOfStudentsReceivingMaximumOverallMarksPercentInClass(5, 'a');
+            Assert.AreEqual(3, studentsReceivingMaximumPercentInClass.Count);
+        }
     }
 }
