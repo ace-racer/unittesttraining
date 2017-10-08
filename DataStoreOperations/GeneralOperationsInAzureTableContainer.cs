@@ -1,8 +1,9 @@
-﻿using UnitTestingTraining.Models;
+﻿using DataStoreOperations.Interfaces;
+using UnitTestingTraining.Models;
 
 namespace DataStoreOperations
 {
-    public class GeneralOperationsInAzureTableContainer
+    public class GeneralOperationsInAzureTableContainer : IGeneralOperations
     {
         public StudentClassDetails GetStudentClassDetailsFromStandardAndSection(int standard, char section)
         {

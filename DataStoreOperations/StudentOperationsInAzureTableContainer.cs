@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using DataStoreOperations.Interfaces;
+using System.Collections.Generic;
 using UnitTestingTraining.Models;
 
 namespace UnitTestingTraining.DataStoreOperations
 {
-    public class StudentOperationsInAzureTableContainer
+    public class StudentOperationsInAzureTableContainer : IStudentOperations
     {
         public List<StudentDetails>  GetStudentDetailsByClassDetailsId(string classDetailsId)
         {
