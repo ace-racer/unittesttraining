@@ -19,7 +19,7 @@ namespace UnitTestingTraining.Tests
         {
             int a = 2147483647;
             int b = 1;
-            int c = a + b;
+            int c = Calculator.Add(a, b);
             Assert.IsTrue(c > 0);
         }
     }
