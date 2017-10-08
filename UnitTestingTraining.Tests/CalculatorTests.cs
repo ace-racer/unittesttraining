@@ -15,12 +15,23 @@ namespace UnitTestingTraining.Tests
         }
 
         [TestMethod]        
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void AddReturnsExceptionWhenArgumentsTooLarge()
         {
             int a = 2147483647;
             int b = 1;
             int c = Calculator.Add(a, b);
             Assert.IsTrue(c > 0);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void AddReturnsExceptionWhenArgumentsTooSmall()
+        {
+            int a = -2147483648;
+            int b = -1;
+            int c = Calculator.Add(a, b);
+            Assert.IsTrue(c < 0);
         }
     }
 }

@@ -6,6 +6,16 @@ namespace SimpleDotNetExample
     {        
         public static int Add(int a, int b)
         {
+            if (a > 0 && b > 0 && a + b <= 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
+            if (a < 0 && b < 0 && a + b > 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
             return a + b;
         }
 
