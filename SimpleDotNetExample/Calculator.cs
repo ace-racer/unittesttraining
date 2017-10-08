@@ -52,6 +52,7 @@ namespace SimpleDotNetExample
         /// <returns>The value of a * b</returns>
         public static int Multiply(int a, int b)
         {
+            // TODO: Add conditions to handle boundary cases and add unit tests in a separate class in the unit tests project
             return a * b;
         }
 
@@ -63,6 +64,7 @@ namespace SimpleDotNetExample
         /// <returns>The value of a - b</returns>
         public static int Subtract (int a, int b)
         {
+            // TODO: Add conditions to handle boundary cases and add unit tests in a separate class in the unit tests project
             return a - b;
         }
 
@@ -74,6 +76,7 @@ namespace SimpleDotNetExample
         /// <returns>The value of a % b</returns>
         public static int Modulo(int a, int b)
         {
+            // TODO: Add conditions to handle boundary cases and add unit tests in a separate class in the unit tests project
             return a % b;
         }
     }
