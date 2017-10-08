@@ -3,7 +3,7 @@ using UnitTestingTraining.Models;
 
 namespace DataStoreOperations
 {
-    public class GeneralOperationsInAzureTableContainer : IGeneralOperations
+    public class GeneralOperationsInAzureTableContainer : IGeneralOperationsInDataSource
     {
         public StudentClassDetails GetStudentClassDetailsFromStandardAndSection(int standard, char section)
         {

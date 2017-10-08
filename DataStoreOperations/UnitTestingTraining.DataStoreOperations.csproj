@@ -41,8 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GeneralOperationsInAzureTableContainer.cs" />
-    <Compile Include="Interfaces\IGeneralOperations.cs" />
-    <Compile Include="Interfaces\IStudentOperations.cs" />
+    <Compile Include="Interfaces\IGeneralOperationsInDataSource.cs" />
+    <Compile Include="Interfaces\IStudentOperationsInDataSource.cs" />
     <Compile Include="StudentOperationsInAzureTableContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

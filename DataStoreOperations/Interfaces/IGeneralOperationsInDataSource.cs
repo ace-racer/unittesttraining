@@ -2,7 +2,7 @@
 
 namespace DataStoreOperations.Interfaces
 {
-    public interface IGeneralOperations
+    public interface IGeneralOperationsInDataSource
     {
         /// <summary>
         /// Gets the student class details from standard and section.

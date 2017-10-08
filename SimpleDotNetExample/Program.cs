@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DataStoreOperations;
+using System;
 using UnitTestingTraining.BusinessLogics;
+using UnitTestingTraining.DataStoreOperations;
 
 namespace SimpleDotNetExample
 {
@@ -11,7 +9,9 @@ namespace SimpleDotNetExample
     {
         static void Main(string[] args)
         {
-            var studentOperationsContainer = new StudentOperationsContainer();
+            var studentOpertionsInDataSourceContainer = new StudentOperationsInAzureTableContainer();
+            var generalOperationsInDataSourceContainer = new GeneralOperationsInAzureTableContainer();
+            var studentOperationsContainer = new StudentOperationsContainer(generalOperationsInDataSourceContainer, studentOpertionsInDataSourceContainer);
             var studentPercent = studentOperationsContainer.GetCurrentPercentScoreOfStudent("1");
             Console.WriteLine(studentPercent + "%");
             Console.ReadKey();

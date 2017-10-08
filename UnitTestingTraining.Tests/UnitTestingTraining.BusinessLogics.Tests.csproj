@@ -54,6 +54,10 @@
     <Compile Include="StudentOperationsUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataStoreOperations\UnitTestingTraining.DataStoreOperations.csproj">
+      <Project>{479a2d75-ec90-4511-a8b0-5d5c2d0feba6}</Project>
+      <Name>UnitTestingTraining.DataStoreOperations</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UnitTestingTraining.BusinessLogics\UnitTestingTraining.BusinessLogics.csproj">
       <Project>{b6f71de8-8345-46c6-80c0-21652f880b00}</Project>
       <Name>UnitTestingTraining.BusinessLogics</Name>

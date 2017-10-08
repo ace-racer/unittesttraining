@@ -4,7 +4,7 @@ using UnitTestingTraining.Models;
 
 namespace UnitTestingTraining.DataStoreOperations
 {
-    public class StudentOperationsInAzureTableContainer : IStudentOperations
+    public class StudentOperationsInAzureTableContainer : IStudentOperationsInDataSource
     {
         public List<StudentDetails>  GetStudentDetailsByClassDetailsId(string classDetailsId)
         {
