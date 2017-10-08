@@ -50,13 +50,16 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SimpleDotNetExample\SimpleDotNetExample.csproj">
-      <Project>{60c29c41-8e46-40a5-b084-6dc958e13193}</Project>
-      <Name>SimpleDotNetExample</Name>
+    <ProjectReference Include="..\UnitTestingTraining.BusinessLogics\UnitTestingTraining.BusinessLogics.csproj">
+      <Project>{b6f71de8-8345-46c6-80c0-21652f880b00}</Project>
+      <Name>UnitTestingTraining.BusinessLogics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitTestingTraining.Models\UnitTestingTraining.Models.csproj">
+      <Project>{de35db10-5b3b-46a2-86e0-61fa25156ebc}</Project>
+      <Name>UnitTestingTraining.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
