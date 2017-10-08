@@ -5,7 +5,7 @@ using SimpleDotNetExample;
 namespace UnitTestingTraining.Tests
 {
     [TestClass]
-    public class CalculatorTests
+    public class AddOperationTests
     {
         [TestMethod]
         public void AddReturnsCorrectSumOfTwoArguments()

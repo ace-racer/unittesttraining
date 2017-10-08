@@ -3,7 +3,15 @@
 namespace SimpleDotNetExample
 {
     public static class Calculator
-    {        
+    {
+        /// <summary>
+        /// Adds the specified a.
+        /// </summary>
+        /// <param name="a">a.</param>
+        /// <param name="b">The b.</param>
+        /// <returns>The value of a + b if the result is in int range</returns>
+        /// <exception cref="System.ArgumentOutOfRangeException">
+        /// </exception>
         public static int Add(int a, int b)
         {
             if (a > 0 && b > 0 && a + b <= 0)
@@ -19,7 +27,14 @@ namespace SimpleDotNetExample
             return a + b;
         }
 
-        public static int Divide(int a, int b)
+        /// <summary>
+        /// Divides the specified a.
+        /// </summary>
+        /// <param name="a">a.</param>
+        /// <param name="b">The b.</param>
+        /// <returns>The value of a/b if b != 0</returns>
+        /// <exception cref="System.DivideByZeroException">Cannot divide by 0</exception>
+        public static double Divide(int a, int b)
         {
             if(b == 0)
             {
@@ -27,6 +42,39 @@ namespace SimpleDotNetExample
             }
 
             return a / b;
+        }
+
+        /// <summary>
+        /// Multiplies the specified a.
+        /// </summary>
+        /// <param name="a">a.</param>
+        /// <param name="b">The b.</param>
+        /// <returns>The value of a * b</returns>
+        public static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
+
+        /// <summary>
+        /// Subtracts the specified a.
+        /// </summary>
+        /// <param name="a">a.</param>
+        /// <param name="b">The b.</param>
+        /// <returns>The value of a - b</returns>
+        public static int Subtract (int a, int b)
+        {
+            return a - b;
+        }
+
+        /// <summary>
+        /// Moduloes the specified a.
+        /// </summary>
+        /// <param name="a">a.</param>
+        /// <param name="b">The b.</param>
+        /// <returns>The value of a % b</returns>
+        public static int Modulo(int a, int b)
+        {
+            return a % b;
         }
     }
 }
