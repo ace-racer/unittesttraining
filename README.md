@@ -16,5 +16,9 @@ The different sessions for the training are divided as branches in this repo. Th
 6. Fork this repo
 7. Clone to your dev box and follow the instructions!
 
+## Branch details: ##
 
-
+### Basics: ###
+1. UnitTestBasics1 : Starting of with unit tests - DLLs and how to reference the DLL under test
+2. UnitTestBasics2 : Beyond the obvious cases - searching for extremes, red-refactor-green pattern
+3. UnitTestBasicsDIY: **Do It Yourself** - Students will write the code to complete this exercise as per instructions. *TODO* statements in the code will identify what is to be performed.
