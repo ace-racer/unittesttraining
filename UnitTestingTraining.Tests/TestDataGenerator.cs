@@ -5,26 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleDotNetExample
+namespace UnitTestingTraining.Tests
 {
-    class Program
+    public static class TestDataGenerator
     {
-        static void Main(string[] args)
-        {
-            var allTransactions = GetTransactions();
-            var balance = BusinessLogicsContainer.GetAccountBalance("ABC123432", allTransactions);
-            Console.WriteLine(balance);
-            Console.ReadKey();
-            balance = BusinessLogicsContainer.GetAccountBalance("BCD123432", allTransactions);
-            Console.WriteLine(balance);
-            Console.ReadKey();
-        }
-
         /// <summary>
         /// Gets the transactions.
         /// </summary>
         /// <returns>The list of transactions</returns>
-        private static List<Transaction> GetTransactions()
+        public static List<Transaction> GetTransactions()
         {
             return new List<Transaction>()
             {
