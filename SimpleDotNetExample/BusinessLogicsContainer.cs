@@ -19,6 +19,7 @@ namespace SimpleDotNetExample
             {
                 if(string.Compare(transaction.AccountNumber, accountNumber) == 0)
                 {
+                    // what does this line assume for a proper transaction??
                     balance += transaction.IsCredit ? transaction.Amount : -transaction.Amount;
                 }
             }
