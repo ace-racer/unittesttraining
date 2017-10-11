@@ -15,44 +15,56 @@ namespace UnitTestingTraining.Tests
             Assert.AreEqual(540, balance);
         }
 
-        #region hideme
+        #region TODO - tests to be implemented for GetAccountBalance method
 
-        [TestMethod, Ignore]
+        [TestMethod]
         public void GetAccountBalance_ReturnsZeroBalanceForASeriesOfSameCreditsAndDebits()
         {
-            // How to do this?
+            // TODO: Implement the test based on the test title
+            Assert.Fail();
         }        
                 
-        [TestMethod, Ignore]
+        [TestMethod]
         public void GetAccountBalance_ReturnsCorrectBalanceForSameAccountNumber()
         {
-            // How to do this?
-        }        
+            // TODO: Implement the test based on the test title
+            Assert.Fail();
+        }
 
-        [TestMethod, Ignore]        
+        [TestMethod]        
         public void GetAccountBalance_ReturnsExpectedExceptionWhenAllTransactionsAreNullOrEmpty()
         {
-            // How to do this?
+            // TODO: Implement the test based on the test title
+            Assert.Fail();
         }
 
-        [TestMethod, Ignore]
+        [TestMethod]
         public void GetAccountBalance_ReturnsExpectedExceptionWhenAccountNumberDoesNotExist()
         {
-            // How to do this?
+            // TODO: Implement the test based on the test title
+            Assert.Fail();
         }
 
-        [TestMethod, Ignore]
+        [TestMethod]
         public void GetAccountBalance_ReturnsExpectedExceptionWhenAccountNumberIsNullOrEmpty()
         {
-            // How to do this?
+            // TODO: Implement the test based on the test title
+            Assert.Fail();
         }
 
-        [TestMethod, Ignore]
+        [TestMethod]        
         public void GetAccountBalance_ReturnsExpectedExceptionWhenNumbersAreBeyondRanges()
         {
-            // How to do this?
+            // TODO: Implement the test based on the test title
+            Assert.Fail();
         }
 
+        #endregion
+
+        #region TODO: Add tests for GetTransactionDetailsFromTransactionId method
+        #endregion
+
+        #region TODO: Add tests for GetTransactionsForAccountDuringPeriod method
         #endregion
     }
 }
